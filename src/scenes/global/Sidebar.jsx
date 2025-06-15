@@ -110,7 +110,7 @@ const Sidebar = () => {
                   Micah Ondiwa
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  Supervisor
+                  Software Engineer
                 </Typography>
               </Box>
             </Box>
