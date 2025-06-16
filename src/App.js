@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
@@ -22,7 +21,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <div className='app'>
-        <Sidebar/>
+        <Sidebar />
         <main className='content'>
           <Topbar />
           <Routes>
@@ -37,9 +36,9 @@ function App() {
             <Route path="/faq" element={<FAQ />} />
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/geography" element={<Geography />} />
-            </Routes>
+          </Routes>
         </main>
-        </div>;
+      </div>;
     </ThemeProvider>
   </ColorModeContext.Provider>
 
